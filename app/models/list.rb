@@ -1,5 +1,4 @@
 class List < ApplicationRecord
-    # /blabla
   has_many :bookmarks, dependent: :destroy
   has_many :movies, through: :bookmarks
 

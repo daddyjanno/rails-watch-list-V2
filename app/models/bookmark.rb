@@ -1,4 +1,5 @@
 class Bookmark < ApplicationRecord
+    # /blabla
   belongs_to :movie
   belongs_to :list
 
